@@ -355,13 +355,14 @@ MonoBehaviour:
   maxSpeed: 10
   gravity: -30
   jumpHeight: 3
+  velocity: {x: 0, y: 0, z: 0}
   groundCheck: {fileID: 1087330239}
   groundRadius: 0.5
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  velocity: {x: 0, y: 0, z: 0}
   isGrounded: 0
+  miniMap: {fileID: 593749953}
 --- !u!143 &427017910
 CharacterController:
   m_ObjectHideFlags: 0
@@ -411,7 +412,7 @@ GameObject:
   - component: {fileID: 593749956}
   - component: {fileID: 593749955}
   m_Layer: 5
-  m_Name: Border
+  m_Name: MiniMapBorder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
